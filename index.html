@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Bootstrap CSS: -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- CSS for icons: -->
+  <link rel="stylesheet" href="  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- CSS for icons (link 2): -->
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <!-- Local CSS File: -->
+  <link rel="stylesheet" href="./resources/style/style.css">
+  <!-- Fonts: -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">  
+</head>
+<body>
+
+  <!-- ! Navigation Bar: -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top bigFont" data-bs-theme="dark" id="nav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><i class="fa-solid fa-code"></i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ! Home: -->
+  <div class="px-4 pt-5 my-5 text-center" id="home">
+    <h1 class="display-4 fw-bold text-body-emphasis bigFont">Avinash Kumar Singh</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Welcome to my personal portfolio! Here, you'll find my passion for technology. With a solid grasp of fundamental concepts and a knack for adaptability & efficiency, I'm constantly exploring new avenues in the tech world. I'm dedicated towards creating captivating web experiences. </p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-3">
+        <a class="btn btn-dark" href="#about" role="button">Read More</a>
+        <a class="btn btn-dark" href="#contact" role="button">Contact Me</a>
+      </div>
+    </div>
+    <div class="imgLandscape" style="max-height: 30vh;">
+      <div class="container px-5">
+        <img src="./resources/images/landscape3.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Image" width="700" height="500" loading="lazy">
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ! About Me: -->
+  <div class="container col-xxl-8 px-4 py-5" id="about">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="./resources/images/codingAnimation.gif" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" id="codingimg">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 bigFont">About Me</h1>
+        <p class="lead">I'm highly inclined towards ever-evolving landscape of modern-day technology. With a keen interest in the rapid evolution of our world, I've immersed myself in various programming languages. These languages serve as the building blocks for bringing digital concepts to life. From crafting visually appealing web designs to implementing various functionalities, I thrive on the endless possibilities that technology offers.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <a class="btn btn-dark" href="#skills" role="button">Skills</a>
+          <a class="btn btn-dark" href="#contact" role="button">Contact Me</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ! Skills: -->
+  <div class="px-4 py-5 my-5 text-center" id="skills">
+    <h1 class="display-5 fw-bold text-body-emphasis bigFont">My Skills</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Welcome to the Skills section, where I showcase a blend of technical prowess and essential social skills.I possess a versatile toolkit for tackling diverse technical challenges.Proficient in various tools, I efficiently navigate development environments to bring projects to life.Beyond technical aspects, my social skills are equally crucial.</p>
+      <div class="skills">
+        <table class="table" id="table">
+          <thead>
+            <tr>
+              <th scope="col">Technical Skills</th>
+              <th scope="col">Soft Skills</th>
+            </tr>
+          </thead>
+          <tbody class="table-group-divider">
+            <tr>
+              <td>HTML, CSS, JS</td>
+              <td>Time Management</td>
+            </tr>
+            <tr>
+              <td>Python</td>
+              <td>Punctuality</td>
+            </tr>
+            <tr>
+              <td>C, C++</td>
+              <td>Team Work</td>
+            </tr>
+            <tr>
+              <td>Java</td>
+              <td>Adaptability</td>
+            </tr>
+            <tr>
+              <td>MySQL</td>
+              <td>Problem-solving</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <a class="btn btn-dark" href="#contact" role="button ">Contact Me</a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ! Contact Me: -->
+  <div class="container" id="contact">
+    <footer class="py-3 my-4">
+      <h3 class="display-6 fw-bold text-body-emphasis nav justify-content-center pb-3 mb-3 bigFont">My Contacts</h3>
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3" style="gap: 2.5rem;" id="bgbtm">
+        <li class="nav-item"><i class="fa-solid fa-phone"></i> +91xxxxxxxxxx</li>
+        <li class="nav-item"><i class="fa-regular fa-envelope"></i> avinashkumarsingh619@gmail.com</li>
+        <li class="nav-item"><i class="fa-solid fa-location-dot"></i> Bhopal (Madhya Pradesh), India</li>
+      </ul>
+      <div class="contact-icons text-center text-body-secondary" style="size: 3rem;">
+        <a href="https://discord.com/" target="_blank"><i class="bx bxl-discord-alt"></i></a>
+        <a href="https://twitter.com/" target="_blank"><i class="bx bxl-twitter"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="bx bxl-instagram"></i></a>
+        <a href="https://in.linkedin.com/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://www.whatsapp.com/" target="_blank"><i class="bx bxl-whatsapp"></i></a>
+        <a href="https://telegram.org/" target="_blank"><i class="bx bxl-telegram"></i></a>
+        <a href="https://github.com/" target="_blank"><i class="bx bxl-github"></i></a>
+        <a href="https://mail.google.com/" target="_blank"><i class="bx bxl-gmail"></i></a>
+      </div>
+    <div class="text-center text-body-secondary">Looking forward to learn new stuff : )</div>
+    </footer>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
